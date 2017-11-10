@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_advanced"/>
+    <include layout="@layout/text_one_weight"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_common"
+        android:textColor="@color/button_text_color"
+        android:textSize="22sp"
+        android:id="@+id/id_show_panel_mngr"
+        android:textAllCaps="false"
+        android:text="@string/show_panel_manager"
+        style="?borderlessButtonStyle"
+        />
+    <include layout="@layout/text_one_weight"/>
+    <include layout="@layout/layout_ctrls"/>
+    <include layout="@layout/text_one_weight"/>
+    <include layout="@layout/layout_func_button"/>
+    <include layout="@layout/text_one_weight"/>
+    <include layout="@layout/layout_directions"/>
+    <include layout="@layout/text_one_weight"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/id_action_slide_next"
+        android:title="@string/next"
+        android:icon="@drawable/icon_btn_right"
+        app:showAsAction="always"/>
+
+    <item android:title="@string/play"
+        android:icon="@drawable/icon_play"
+        app:showAsAction="always"
+        android:id="@+id/action_play_slide"/>
+
+    <item android:title="@string/esc"
+        android:icon="@drawable/icon_close"
+        app:showAsAction="always"
+        android:id="@+id/id_action_esc"/>
+
+    <item android:icon="@drawable/icon_btn_left"
+        app:showAsAction="always"
+        android:title="@string/prev"
+        android:id="@+id/id_action_slide_prev"/>
+
+    <item android:title="@string/play"
+        android:id="@+id/action_play_slide2"/>
+
+    <item android:title="@string/esc"
+        android:id="@+id/id_action_esc2"/>
+
+    <item android:id="@+id/id_action_slide_next2"
+        android:title="@string/next" />
+
+    <item android:title="@string/prev"
+        android:id="@+id/id_action_slide_prev2"/>
+
+</menu>

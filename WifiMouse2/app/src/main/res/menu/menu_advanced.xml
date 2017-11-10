@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/rotate_90_degree"
+        android:icon="@drawable/icon_rotate"
+        android:id="@+id/action_rotate_90_deg"/>
+
+    <item android:title="@string/rotate_180_degree"
+        android:icon="@drawable/icon_rotate"
+        android:id="@+id/action_rotate_180_deg"/>
+
+    <item android:title="@string/rotate_270_degree"
+        android:icon="@drawable/icon_rotate"
+        android:id="@+id/action_rotate_270_deg"/>
+
+    <item android:title="@string/rotate_360_degree"
+        android:icon="@drawable/icon_rotate"
+        android:id="@+id/action_rotate_360_deg"/>
+</menu>

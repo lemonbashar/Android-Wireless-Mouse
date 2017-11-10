@@ -1,0 +1,27 @@
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner
+        android:layout_width="0sp"
+        android:layout_weight="1"
+        android:id="@+id/id_advanced_spinner"
+        android:layout_height="match_parent">
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/default_button_style"
+        android:textColor="#FFFFFF"
+        android:id="@+id/id_select_time"
+        android:text="@string/select_time"/>
+
+    <Button
+        android:text="@string/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/default_button_style"
+        android:id="@+id/id_button_advanced_action_apply"
+        />
+</LinearLayout>

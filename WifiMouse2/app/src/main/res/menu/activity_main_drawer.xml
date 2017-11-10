@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/status">
+        <menu>
+            <item android:title="@string/status_disconnected"
+                android:id="@+id/nav_status"
+                android:icon="@drawable/icon_disconnect"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/quick_options" >
+        <menu>
+
+            <item android:title="@string/copy_selection"
+                android:icon="@drawable/icon_copy"
+                android:id="@+id/nav_copy"/>
+            <item android:title="@string/cut_selection"
+                android:icon="@drawable/icon_cut"
+                android:id="@+id/nav_cut"/>
+            <item android:title="@string/paste_here"
+                android:icon="@drawable/icon_paste"
+                android:id="@+id/nav_paste"/>
+            <item android:title="@string/delete_selection"
+                android:icon="@drawable/icon_delete"
+                android:id="@+id/nav_delete"/>
+            <item android:title="@string/permanent_delete"
+                android:id="@+id/nav_delete_permanently"
+                android:icon="@drawable/icon_delete_permanently"/>
+            <item android:title="@string/close_current_window"
+                android:id="@+id/nav_close_current_win"
+                android:icon="@drawable/icon_close"/>
+
+            <item android:title="@string/exit_app"
+                android:id="@+id/nav_exit_app"
+                android:icon="@drawable/icon_power"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/mode">
+        <menu>
+            <item
+                android:id="@+id/nav_mode_slideshow"
+                android:icon="@drawable/icon_slide"
+                android:title="@string/mode_slideshow" />
+
+
+            <item android:title="@string/mouse_mode"
+                android:icon="@drawable/icon_mouse"
+                android:id="@+id/nav_mode_mouse"/>
+
+            <item android:title="@string/text_post_mode"
+                android:id="@+id/nav_mode_text_post"
+                android:icon="@drawable/icon_text_post"/>
+
+            <item android:id="@+id/nav_mode_advanced"
+                android:title="@string/advanced_mode"
+                android:icon="@drawable/icon_setting"/>
+
+            <item android:title="@string/hide_title"
+                android:icon="@drawable/icon_hide_title"
+                android:id="@+id/nav_hide_title"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/settings" >
+        <menu>
+            <item android:title="@string/connection_list"
+                android:icon="@drawable/icon_list"
+                android:id="@+id/nav_show_connection_list"/>
+
+            <item android:title="@string/connect_to_pc"
+                android:icon="@drawable/icon_connect"
+                android:id="@+id/nav_connect_pc"/>
+
+            <item android:title="@string/manual_connection"
+                android:icon="@drawable/icon_add_circle"
+                android:id="@+id/nav_connect_manually"/>
+
+            <item android:title="@string/forcefully_connect"
+                android:icon="@drawable/icon_connect"
+                android:id="@+id/nav_connect_pc_forcefully"/>
+
+            <item android:id="@+id/nav_disconnect"
+                android:icon="@drawable/icon_disconnect"
+                android:title="@string/disconnect"/>
+
+            <item android:title="@string/select_mouse_speed"
+                android:icon="@drawable/icon_trend_up"
+                android:id="@+id/nav_select_mouse_speed"/>
+
+            <item android:title="@string/configuration"
+                android:icon="@drawable/icon_manage"
+                android:id="@+id/nav_configure"/>
+        </menu>
+
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item android:title="@string/help"
+                android:icon="@drawable/icon_help"
+                android:id="@+id/nav_help"/>
+            <item android:id="@+id/nav_show_developer"
+                android:title="@string/about_developer"
+                android:icon="@drawable/icon_account"/>
+        </menu>
+    </item>
+
+</menu>

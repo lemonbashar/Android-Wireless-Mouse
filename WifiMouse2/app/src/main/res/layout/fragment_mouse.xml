@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:id="@+id/layout_text_post"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/inputText"
+            android:maxLength="100"
+            android:hint="@string/enter_a_text_and_click_post"
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+        <Button
+            android:id="@+id/button_text_post"
+            android:text="@string/post"
+            style="@style/function_button"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_mouse_main"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_mouse"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/vertical_scroll"
+            android:layout_width="@dimen/side_v_scroll"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_mouse" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/layout_mouse_button"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:id="@+id/mouse_left"
+            android:background="@drawable/btn_mouse"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mouse_left_pressed"
+            />
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:id="@+id/mouse_right"
+            android:background="@drawable/btn_mouse"
+            />
+    </LinearLayout>
+    <include layout="@layout/layout_ctrls"/>
+    <include layout="@layout/layout_directions"/>
+
+</LinearLayout>

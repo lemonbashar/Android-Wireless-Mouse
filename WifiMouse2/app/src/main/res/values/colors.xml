@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff0b0b</color>
+    <color name="colorPrimaryDark">#ff0000</color>
+    <color name="colorAccent">#ff0000</color>
+    <color name="primary_material_light">@color/colorAccent</color>
+
+
+    <color name="black">#616161</color>
+    <color name="deep_black">#FF000000</color>
+    <color name="white">#eeeeee</color>
+    <color name="red">#FF0000</color>
+    <color name="light_red">#b6ff0000</color>
+    <color name="dark_red">#970000</color>
+</resources>

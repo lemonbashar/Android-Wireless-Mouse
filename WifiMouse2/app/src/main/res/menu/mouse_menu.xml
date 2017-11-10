@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/functionality"
+        android:id="@+id/action_functionality"
+        app:showAsAction="never">
+        <menu>
+            <item android:title="@string/mouse_button"
+                android:icon="@drawable/icon_hide_title"
+                android:checkable="true"
+                android:id="@+id/action_mouse_button"/>
+            <item android:title="@string/control_button"
+                android:icon="@drawable/icon_hide_title"
+                android:checkable="true"
+                android:id="@+id/action_ctrl_button"/>
+            <item android:title="@string/direction_button"
+                android:icon="@drawable/icon_hide_title"
+                android:checkable="true"
+                android:id="@+id/action_direction"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/quick_options">
+        <menu>
+            <item android:title="@string/copy"
+                android:id="@+id/id_action_copy"
+                android:icon="@drawable/icon_copy"/>
+            <item android:title="@string/cut"
+                android:id="@+id/id_action_cut"
+                android:icon="@drawable/icon_cut"/>
+            <item android:title="@string/paste"
+                android:id="@+id/id_action_paste"
+                android:icon="@drawable/icon_paste"/>
+            <item android:title="@string/delete"
+                android:id="@+id/id_action_delete"
+                android:icon="@drawable/icon_delete"/>
+        </menu>
+    </item>
+
+</menu>

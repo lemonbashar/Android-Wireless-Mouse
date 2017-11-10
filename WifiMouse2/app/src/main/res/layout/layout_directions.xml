@@ -1,0 +1,47 @@
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/layout_direction"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/text_one_weight"/>
+    <Button
+        android:id="@+id/id_btn_left"
+        android:background="@drawable/icon_button_left"
+        android:layout_width="@dimen/basic_circle_btn"
+        android:layout_height="@dimen/basic_circle_btn"
+        style="?borderlessButtonStyle"
+        />
+    <include layout="@layout/text_one_weight"/>
+    <Button
+        android:background="@drawable/icon_button_up"
+        android:layout_width="@dimen/basic_circle_btn"
+        android:layout_height="@dimen/basic_circle_btn"
+        style="?borderlessButtonStyle"
+        android:id="@+id/id_btn_up"/>
+    <include layout="@layout/text_one_weight"/>
+    <Button
+        android:background="@drawable/icon_button_down"
+        android:layout_width="@dimen/basic_circle_btn"
+        android:layout_height="@dimen/basic_circle_btn"
+        style="?borderlessButtonStyle"
+        android:id="@+id/id_btn_down"
+        />
+    <include layout="@layout/text_one_weight"/>
+    <Button
+        android:background="@drawable/icon_button_right"
+        android:layout_width="@dimen/basic_circle_btn"
+        android:layout_height="@dimen/basic_circle_btn"
+        style="?borderlessButtonStyle"
+        android:id="@+id/id_btn_right"
+        />
+    <include layout="@layout/text_one_weight"/>
+    <Button
+        android:id="@+id/id_btn_enter"
+        android:background="@drawable/icon_button_enter"
+        android:layout_width="@dimen/basic_circle_btn"
+        android:layout_height="@dimen/basic_circle_btn"
+        style="?borderlessButtonStyle"
+        />
+    <include layout="@layout/text_one_weight"/>
+
+</LinearLayout>
